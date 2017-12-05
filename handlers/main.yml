@@ -1,0 +1,7 @@
+---
+# handlers file for wblotevogel.redis
+
+  - name: redis restart
+    systemd:
+      name: redis-server
+      state: restarted
